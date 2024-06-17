@@ -3,7 +3,8 @@
 ## Installation
 
 ```sh
-git clone
+git clone https://github.com/chayasin-bdi/postgresql.git
+cd postgresql
 docker compose up
 ```
 
