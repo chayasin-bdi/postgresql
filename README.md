@@ -16,3 +16,7 @@ docker compose up
 - Password=password
 
 Enjoy!
+
+Note for nerds:
+- In 2024 June, 'version' in docker-compose is obsolete.
+- Also `docker compose` is newer thing for `docker-compose`
