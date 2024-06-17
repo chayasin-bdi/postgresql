@@ -1,5 +1,7 @@
 # Basic PostgreSQL Docker Composer Setup for Practicing
 
+With initial data.
+
 ## Installation
 
 ```sh
