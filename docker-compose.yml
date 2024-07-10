@@ -3,11 +3,11 @@ services:
     image: postgres:latest
     container_name: PostgreSQL
     environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=user_postgres
+      - POSTGRES_PASSWORD=password_postgres
       - POSTGRES_DB=db0
     ports:
-      - "15432:5432"
+      - "10432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./postgres-config/init.sql:/docker-entrypoint-initdb.d/init.sql

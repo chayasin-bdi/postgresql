@@ -13,10 +13,10 @@ docker compose up
 ## Connect using DBeaver
 
 - Host=localhost
-- Port=15432
+- Port=10432
 - Database=db0
-- User=user
-- Password=password
+- User=user_postgres
+- Password=password_postgres
 
 Enjoy!
 
