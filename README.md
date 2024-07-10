@@ -14,6 +14,7 @@ docker compose up
 
 - Host=localhost
 - Port=15432
+- Database=db0
 - User=user
 - Password=password
 
